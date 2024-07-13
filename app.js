@@ -1,3 +1,3 @@
 'use strict';
 
-// Your code goes here
+console.log('Hallo Welt!');
