@@ -16,7 +16,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Get next version
-        uses: thenativeweb/get-next-version@main
+        uses: thenativeweb/get-next-version@2.6.2
         id: get-next-version
       - name: Create new release
         if: ${{ steps.get-next-version.outputs.hasNextVersion == 'true' }}
